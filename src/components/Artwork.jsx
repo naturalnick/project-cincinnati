@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 
 function Artwork({ id, title, artist }) {
 	const image = useImage(id);
-	console.log(image);
+
 	return (
 		<Col lg={6} xl={4} className="d-flex justify-content-center">
 			<div className="p-lg-3 p-xl-5">
